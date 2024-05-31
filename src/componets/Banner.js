@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Banner = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row className="justify-content-center align-items">
         <Col lg={8}>
           <Carousel>
@@ -49,6 +49,10 @@ const Banner = () => {
           </Carousel>
         </Col>
       </Row>
+      <div className="text-center">
+        <h2 className="display-5 mt-3">Pizzas for Every Occasional</h2>
+        <p className="lead text-muted">Lorem ipsum dolorlaudantium, nam impedit!</p>
+      </div>
     </Container>
   );
 };
