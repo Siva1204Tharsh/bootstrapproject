@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const AppBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" >
       <Container>
         <Navbar.Brand href="#home">
           <h2 className="text-primary">
