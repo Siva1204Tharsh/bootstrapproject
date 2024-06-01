@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Cart from "./Cart";
 
 const AppBar = () => {
   return (
@@ -29,6 +30,7 @@ const AppBar = () => {
             <Nav.Link href="#contact" className="fw-bold">
               Contact Us
             </Nav.Link>
+            <Cart />
           </Nav>
         </Navbar.Collapse>
       </Container>
