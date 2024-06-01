@@ -19,6 +19,7 @@ const PickoftheWeek = () => {
               src={require("../assets/center.jpeg")}
               fluid={true}
               alt="pizza"
+              rounded
             />
           </Col>
           <Col md={5}>

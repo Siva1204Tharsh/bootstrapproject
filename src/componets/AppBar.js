@@ -27,7 +27,7 @@ const AppBar = () => {
               Must Try
             </Nav.Link>
             <Nav.Link href="#contact" className="fw-bold">
-              Contact
+              Contact Us
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
