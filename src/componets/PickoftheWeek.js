@@ -27,7 +27,7 @@ const PickoftheWeek = () => {
               <h2 className="h1">Double Cheese Fajita</h2>
               <p className="lead text-muted">
                 A delicious and easy-to-make meal that's perfect for a quick
-                lunch or dinner.
+                lunch or dinner.<i class="bi bi-twitter"></i>
               </p>
               <Button variant="primary" onClick={() => setShow(true)}>
                 <i class="bi bi-basket"></i> Order Now
